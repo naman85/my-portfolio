@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <!-- <li><a href="#">About</a></li> -->
+            <!-- <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li> -->
+            <li class="active"><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home">
+        <div class="home-info">
+            <h1>Naman Sharma</h1>
+            <h2>I'm an Aspiring Web Developer</h2>
+            <p>I am passionate about creating clean, responsive, and user-friendly websites. Currently building my skills in HTML and CSS, I enjoy experimenting with designs and bringing ideas to life through code. My goal is to master both front-end and back-end development to craft complete, functional web applications. I believe in continuous learning and staying updated with the latest web technologies to deliver modern and effective solutions. Every project I work on is an opportunity to grow, improve, and move closer to becoming a professional developer.</p>
+            <div class="btn-sci">
+                <a href="resume.pdf" class="btn" download>
+                    Download Resume
+                </a>
+                <div class="sci">
+                    <a href="https://github.com/naman85" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/naman2745" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href= "https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <!-- <a href="#"><i class='bx bxl-youtube'></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="new1.png" alt="">
+                </div>
+            </div>     
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact-section">
+        <div class="contact-content">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <p>Have a question or want to collaborate? I'd love to hear from you!</p>
+            <div class="contact-info">
+                <p><i class='bx bxs-phone'></i> +91 809 1029 401</p>
+                <p><i class='bx bxs-envelope'></i> namansharma2745@gmail.com</p>
+                <p><i class='bx bxs-location-plus'></i> Chennai, India</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
